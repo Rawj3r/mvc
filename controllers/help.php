@@ -6,7 +6,7 @@
  * Time: 8:28 PM
  */
 
-require 'libs/controller.php';
+
 
 class Help extends Controller{
 
@@ -17,6 +17,9 @@ class Help extends Controller{
     public function move($name = false){
         echo "We are moving";
         echo "Name: $name";
+
+        require 'models/help.model.php';
+        new HelpModel();
     }
 
 

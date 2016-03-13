@@ -7,8 +7,6 @@
  * Time: 8:15 PM
  */
 
-require 'libs/controller.php';
-
 
 class Index extends Controller{
 

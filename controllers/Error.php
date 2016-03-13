@@ -7,12 +7,15 @@
  * Time: 9:14 PM
  */
 
-require 'libs/controller.php';
 
 class Error extends Controller{
 
     function __construct(){
+        parent::__construct();
         echo "this is an error";
+
+        $this->view->msg = "Page doesn't exist";
+        $this->view->render('error/index');
     }
 
 }
