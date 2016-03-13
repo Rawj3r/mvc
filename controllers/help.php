@@ -6,15 +6,17 @@
  * Time: 8:28 PM
  */
 
-class Help{
+require 'libs/controller.php';
+
+class Help extends Controller{
 
     function __construct(){
         echo 'We are inside help';
     }
 
-    public function move($name = "roger"){
+    public function move($name = false){
         echo "We are moving";
-        echo "$name";
+        echo "Name: $name";
     }
 
 

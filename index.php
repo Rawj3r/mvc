@@ -7,6 +7,7 @@
  */
 
 require 'libs/Bootstrap.php';
+require 'libs/view.php';
 
 
 new Bootstrap();

@@ -15,15 +15,16 @@ class Bootstrap{
         $url = rtrim($url, '/');
         $url = explode('/', $url);
 
-        print_r($url);
+        //print_r($url);
 
         // check if file exist before requiring it
         $file = 'controllers/' . $url[0] . '.php';
         if(file_exists($file)){
             require $file;
         }else{
-           throw new Exception("The file: $file does not exist");
-
+           require 'controllers/Error.php';
+            $controller = new Error();
+            return false;
         }
 
         $controller = new $url[0];
