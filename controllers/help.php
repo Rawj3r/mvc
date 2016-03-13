@@ -12,8 +12,9 @@ class Help{
         echo 'We are inside help';
     }
 
-    public function move(){
+    public function move($name = "roger"){
         echo "We are moving";
+        echo "$name";
     }
 
 
