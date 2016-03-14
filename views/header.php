@@ -19,7 +19,7 @@ class Header{
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <link href="public/css/style.css" rel="stylesheet">
-    <link href="https://necolas.github.io/normalize.css/3.0.3/normalize.css" rel="stylesheet">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -37,9 +37,11 @@ class Header{
 <div class="container-fluid">
 <div id="header">
     <ul class="nav nav-pills">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Profile</a></li>
-        <li role="presentation"><a href="#">Messages</a></li>
+        <li role="presentation" class="active"><a href="index">Home</a></li>
+        <li role="presentation"><a href="profile">Profile</a></li>
+        <li role="presentation"><a href="messaging">Messages</a></li>
+        <li role="presentation"><a href="login">Login</a></li>
+        <li role="presentation"><a href="help">Help</a></li>
     </ul>
 </div>
-<div id="content">
+<div id="content" class="row">

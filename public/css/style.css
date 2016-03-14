@@ -6,6 +6,7 @@ body{
 #header{
     background-color: #63ACE8;
     padding: 10px;
+    font-family: Arial;
 }
 
 #content{
@@ -16,11 +17,12 @@ body{
 #footer{
     background-color: #63ACE8;
     padding: 20px;
+    font-size: 11px;
+    text-align: center;
 }
 
 div#main_header{
     list-style: none;
-
 }
 
 div.container-fluid{
