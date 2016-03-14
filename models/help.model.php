@@ -11,4 +11,8 @@ class HelpModel extends Model{
     function __construct(){
         echo "Help Model";
     }
+
+    function contact(){
+        echo " contact";
+    }
 }

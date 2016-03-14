@@ -13,15 +13,17 @@ class Help extends Controller{
     function __construct(){
         parent::__construct();
 
+    }
+
+    function index(){
         $this->view->render('help/index');
     }
 
     public function move($name = false){
-        echo "We are moving";
-        echo "Name: $name";
 
         require 'models/help.model.php';
-        new HelpModel();
+        $model = new HelpModel();
+        $this->view->contact = $model->contact();
     }
 
 
