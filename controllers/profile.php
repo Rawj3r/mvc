@@ -12,6 +12,6 @@ class Profile extends Controller{
     function __construct(){
         parent::__construct();
 
-        $this->view->render('login/index');
+        $this->view->render('profile/index');
     }
 }

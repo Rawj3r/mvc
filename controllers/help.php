@@ -11,7 +11,9 @@
 class Help extends Controller{
 
     function __construct(){
-        echo 'We are inside help';
+        parent::__construct();
+
+        $this->view->render('help/index');
     }
 
     public function move($name = false){
