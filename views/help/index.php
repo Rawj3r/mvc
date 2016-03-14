@@ -7,12 +7,10 @@
  * Time: 9:57 PM
  */
 
-require 'views/header.php';
 
 ?>
 
 This is the help page welcome.
 
-<?php require 'views/footer.php' ?>
 
 

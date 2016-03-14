@@ -6,10 +6,8 @@
  * Time: 8:58 AM
  */
 
-require 'views/header.php';
 
 ?>
 
 This is the messaging page welcome.
 
-<?php require 'views/footer.php' ?>

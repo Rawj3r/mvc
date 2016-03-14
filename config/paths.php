@@ -3,11 +3,7 @@
  * Created by IntelliJ IDEA.
  * User: Nkosi RN
  * Date: 3/14/16
- * Time: 9:00 AM
+ * Time: 10:14 AM
  */
 
-
-?>
-
-This is the profile page welcome.
-
+define('URL', 'http://127.0.0.1/mvc/');

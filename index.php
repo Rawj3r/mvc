@@ -11,5 +11,8 @@ require 'libs/view.php';
 require 'libs/controller.php';
 require 'libs/model.php';
 
+require 'config/db.php';
+require 'config/paths.php';
+
 
 new Bootstrap();

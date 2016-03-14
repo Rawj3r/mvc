@@ -13,8 +13,14 @@ class View{
 
     }
 
-    public function render($name){
+    public function render($name, $par = false){
+        if($par == true){
+            require 'views/' . $name . '.php';
+        }
+        require 'views/header.php';
         require 'views/' . $name . '.php';
+        require 'views/footer.php';
+
     }
 
 }
