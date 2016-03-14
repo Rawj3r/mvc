@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+#header{
+    background-color: #63ACE8;
+    padding: 10px;
+}
+
+#content{
+    background-color: #DCE8F2;
+    padding: 20px;
+}
+
+#footer{
+    background-color: #63ACE8;
+    padding: 20px;
+}
+
+div#main_header{
+    list-style: none;
+
+}
+
+div.container-fluid{
+    margin: 0;
+    padding: 0;
+}
