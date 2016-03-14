@@ -15,6 +15,12 @@ class Index extends Controller{
     }
 
     function index(){
+        echo "INDEX";
+        $this->view->render('index/index');
+    }
+
+    function details(){
+        echo "New data";
         $this->view->render('index/index');
     }
 }
